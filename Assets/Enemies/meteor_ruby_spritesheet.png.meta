@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 24b24f981eaed9d49a699ef6e3390453
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2149252379676230447
+    second: meteor_ruby_spritesheet_0
+  - first:
+      213: -4804670935582304542
+    second: meteor_ruby_spritesheet_1
+  - first:
+      213: -4065216879053626926
+    second: meteor_ruby_spritesheet_2
+  - first:
+      213: 4323020175707677709
+    second: meteor_ruby_spritesheet_3
+  - first:
+      213: -493442982302942384
+    second: meteor_ruby_spritesheet_4
+  - first:
+      213: 4745568337414102521
+    second: meteor_ruby_spritesheet_5
+  - first:
+      213: -5266864510007263046
+    second: meteor_ruby_spritesheet_6
+  - first:
+      213: 3625624119491758166
+    second: meteor_ruby_spritesheet_7
+  - first:
+      213: -8024024009236690213
+    second: meteor_ruby_spritesheet_8
+  - first:
+      213: -9207888885298691182
+    second: meteor_ruby_spritesheet_9
+  - first:
+      213: -2293469136644984170
+    second: meteor_ruby_spritesheet_10
+  - first:
+      213: 3838624694781156790
+    second: meteor_ruby_spritesheet_11
+  - first:
+      213: -6966036860828661226
+    second: meteor_ruby_spritesheet_12
+  - first:
+      213: -8382597239970471044
+    second: meteor_ruby_spritesheet_13
+  - first:
+      213: -1827933575170138369
+    second: meteor_ruby_spritesheet_14
+  - first:
+      213: -4805567797536812203
+    second: meteor_ruby_spritesheet_15
+  - first:
+      213: -2526316125143560505
+    second: meteor_ruby_spritesheet_16
+  - first:
+      213: 8887660206284380470
+    second: meteor_ruby_spritesheet_17
+  - first:
+      213: 4030274489154212016
+    second: meteor_ruby_spritesheet_18
+  - first:
+      213: 1489345311619185873
+    second: meteor_ruby_spritesheet_19
+  - first:
+      213: 3971644080394233075
+    second: meteor_ruby_spritesheet_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 22
+        width: 208
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc3cb019525c22e0800000000000000
+      internalID: -2149252379676230447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 21
+        width: 208
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e619f58d31625db0800000000000000
+      internalID: -4804670935582304542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 19
+        width: 202
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1261579c27597c0800000000000000
+      internalID: -4065216879053626926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 19
+        width: 200
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0427e902f37efb30800000000000000
+      internalID: 4323020175707677709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 19
+        width: 205
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b7ce2d830f629f0800000000000000
+      internalID: -493442982302942384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 19
+        width: 208
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd98e08245abd140800000000000000
+      internalID: 4745568337414102521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 22
+        width: 208
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0c7e812a658e6b0800000000000000
+      internalID: -5266864510007263046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 21
+        width: 208
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65805636dedc05230800000000000000
+      internalID: 3625624119491758166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 22
+        width: 208
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdacd3c3da0f4a090800000000000000
+      internalID: -8024024009236690213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 19
+        width: 206
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293018428d1073080800000000000000
+      internalID: -9207888885298691182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 19
+        width: 202
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69234f6b8f5fb20e0800000000000000
+      internalID: -2293469136644984170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 21
+        width: 208
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd197e62d8854530800000000000000
+      internalID: 3838624694781156790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 3101
+        y: 20
+        width: 201
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ac70af16aa35f90800000000000000
+      internalID: -6966036860828661226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 3356
+        y: 20
+        width: 203
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73e36029380bab80800000000000000
+      internalID: -8382597239970471044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 3612
+        y: 20
+        width: 205
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe59f22910e1a6e0800000000000000
+      internalID: -1827933575170138369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3866
+        y: 20
+        width: 208
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55313c39c813f4db0800000000000000
+      internalID: -4805567797536812203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 4123
+        y: 20
+        width: 207
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce0a728ed8b0fcd0800000000000000
+      internalID: -2526316125143560505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 4378
+        y: 22
+        width: 208
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63994f76edf475b70800000000000000
+      internalID: 8887660206284380470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 4635
+        y: 22
+        width: 207
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b01b596b496ee730800000000000000
+      internalID: 4030274489154212016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 4890
+        y: 25
+        width: 208
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc74f68ba73ba410800000000000000
+      internalID: 1489345311619185873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteor_ruby_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 5146
+        y: 23
+        width: 208
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f46e2a9f3d1e1730800000000000000
+      internalID: 3971644080394233075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      meteor_ruby_spritesheet_0: -2149252379676230447
+      meteor_ruby_spritesheet_1: -4804670935582304542
+      meteor_ruby_spritesheet_10: -2293469136644984170
+      meteor_ruby_spritesheet_11: 3838624694781156790
+      meteor_ruby_spritesheet_12: -6966036860828661226
+      meteor_ruby_spritesheet_13: -8382597239970471044
+      meteor_ruby_spritesheet_14: -1827933575170138369
+      meteor_ruby_spritesheet_15: -4805567797536812203
+      meteor_ruby_spritesheet_16: -2526316125143560505
+      meteor_ruby_spritesheet_17: 8887660206284380470
+      meteor_ruby_spritesheet_18: 4030274489154212016
+      meteor_ruby_spritesheet_19: 1489345311619185873
+      meteor_ruby_spritesheet_2: -4065216879053626926
+      meteor_ruby_spritesheet_20: 3971644080394233075
+      meteor_ruby_spritesheet_3: 4323020175707677709
+      meteor_ruby_spritesheet_4: -493442982302942384
+      meteor_ruby_spritesheet_5: 4745568337414102521
+      meteor_ruby_spritesheet_6: -5266864510007263046
+      meteor_ruby_spritesheet_7: 3625624119491758166
+      meteor_ruby_spritesheet_8: -8024024009236690213
+      meteor_ruby_spritesheet_9: -9207888885298691182
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
