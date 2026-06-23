@@ -3,7 +3,6 @@ using UnityEngine;
 public class InfiniteBackground : MonoBehaviour
 {
     [SerializeField] float scrollSpeed = 2f;
-    [SerializeField] Transform otherBackground;
 
     float backgroundHeight;
 
@@ -11,21 +10,19 @@ public class InfiniteBackground : MonoBehaviour
     {
         backgroundHeight =
             GetComponent<SpriteRenderer>().bounds.size.y;
+
+        Debug.Log(backgroundHeight);
     }
 
     void Update()
     {
-        transform.Translate(
-            Vector3.down * scrollSpeed * Time.deltaTime
-        );
+        transform.position +=
+            Vector3.down * scrollSpeed * Time.deltaTime;
 
         if (transform.position.y <= -backgroundHeight)
         {
-            transform.position = new Vector3(
-                transform.position.x,
-                otherBackground.position.y + backgroundHeight,
-                transform.position.z
-            );
+            transform.position +=
+                Vector3.up * (backgroundHeight * 2f);
         }
     }
 }
