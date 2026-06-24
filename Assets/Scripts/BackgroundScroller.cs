@@ -1,20 +1,22 @@
 using UnityEngine;
 
-public class BackgroundScroller : MonoBehaviour
+public class BackgroundScroll : MonoBehaviour
 {
-    public float scrollSpeed = 2f;
-
-    private Renderer rend;
+    [SerializeField] float scrollSpeed = 2f;
+    float backgroundHeight;
 
     void Start()
     {
-        rend = GetComponent<Renderer>();
+        backgroundHeight = GetComponent<SpriteRenderer>().bounds.size.y;
     }
 
     void Update()
     {
-        float offset = Time.time * scrollSpeed;
+        transform.position += Vector3.down * scrollSpeed * Time.deltaTime;
 
-        rend.material.mainTextureOffset = new Vector2(0, offset);
+        if (transform.position.y <= -backgroundHeight)
+        {
+            transform.position += Vector3.up * backgroundHeight * 2f;
+        }
     }
 }
