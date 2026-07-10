@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -11,12 +13,22 @@ public class PlayerController : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform firePoint;
 
+    Animator animator;
+    Collider2D col;
+
     bool isDead;
+
+    void Awake()
+    {
+        animator = GetComponent<Animator>();
+        col = GetComponent<Collider2D>();
+    }
 
     void OnEnable()
     {
         IsAlive = true;
     }
+
     void Update()
     {
         if (isDead)
@@ -47,12 +59,14 @@ public class PlayerController : MonoBehaviour
         isDead = true;
         IsAlive = false;
 
-#if UNITY_EDITOR
-        if (Selection.activeGameObject == gameObject)
-            Selection.activeGameObject = null;
-#endif
+        col.enabled = false;
 
-        Destroy(gameObject);
+        if (animator != null){
+            animator.SetBool("enemy_col", true);
+            Destroy(gameObject, 0.4f);
+        }
+        else
+            Destroy(gameObject);
     }
 
     void Move()
@@ -67,10 +81,12 @@ public class PlayerController : MonoBehaviour
 
     void Shoot()
     {
-        Instantiate(
-            bulletPrefab,
-            firePoint.position,
-            Quaternion.identity
-        );
+        Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+    }
+
+    // Called from Animation Event
+    public void DestroyShip()
+    {
+        Destroy(gameObject);
     }
 }
