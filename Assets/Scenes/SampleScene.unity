@@ -461,8 +461,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 300ebda36430b304ea863901eedf237b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InfiniteBackground
-  scrollSpeed: 2
-  backgroundHeight: 0
 --- !u!114 &912485645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -713,6 +711,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerShip
       objectReference: {fileID: 0}
+    - target: {fileID: 6986335660096039295, guid: c1c011c7cfbf94e41bf954b44f8579a6, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.8828572
+      objectReference: {fileID: 0}
+    - target: {fileID: 6986335660096039295, guid: c1c011c7cfbf94e41bf954b44f8579a6, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.7903179
+      objectReference: {fileID: 0}
+    - target: {fileID: 8807655296046300338, guid: c1c011c7cfbf94e41bf954b44f8579a6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -9219703370915312881, guid: 421c326baed68f04d8099a513eab38c0, type: 3}
     - target: {fileID: 8807655296046300338, guid: c1c011c7cfbf94e41bf954b44f8579a6, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -723,8 +733,38 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1047310251673298121, guid: c1c011c7cfbf94e41bf954b44f8579a6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 764133143}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3299716734874969298, guid: c1c011c7cfbf94e41bf954b44f8579a6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4967860184899388638}
   m_SourcePrefab: {fileID: 100100000, guid: c1c011c7cfbf94e41bf954b44f8579a6, type: 3}
+--- !u!1 &4967860184899388637 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3299716734874969298, guid: c1c011c7cfbf94e41bf954b44f8579a6, type: 3}
+  m_PrefabInstance: {fileID: 4967860184899388636}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &4967860184899388638
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4967860184899388637}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: af1ea8dd9d1282e4a8fa6f3ec8284655, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &8227009685719281132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -739,11 +779,11 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 788226b10f8da7b4682865e0a0b6eb6f, type: 3}
     - target: {fileID: 7617275218023411236, guid: 5814371a78da6a04883d0307f8e4d7e9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0239
+      value: -0.234
       objectReference: {fileID: 0}
     - target: {fileID: 7617275218023411236, guid: 5814371a78da6a04883d0307f8e4d7e9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0001
+      value: -0.102
       objectReference: {fileID: 0}
     - target: {fileID: 7617275218023411236, guid: 5814371a78da6a04883d0307f8e4d7e9, type: 3}
       propertyPath: m_LocalPosition.z
