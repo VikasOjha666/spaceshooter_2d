@@ -2,21 +2,34 @@ using UnityEngine;
 
 public class MeteorSpawner : MonoBehaviour
 {
-    public GameObject[] meteorPrefabs;   // Array instead of single prefab
-    public float spawnRate = 5f;
-    public float switchInterval = 20f;   // Time before switching to next prefab
+    public GameObject[] meteorPrefabs;
 
-    private Camera mainCamera;
+    [Header("Spawn Timing")]
+    public float spawnRate = 0.5f;
+    public float switchInterval = 20f;
+
+    [Header("Spawn Count")]
+    public int defaultMeteorsPerSpawn = 1;
+    public int maxMeteorsPerSpawn = 5;
+    public float spawnIncreaseInterval = 5f; // Increase count every 5 seconds
 
     public float horizontalSpawnPadding = 0.5f;
 
+    private Camera mainCamera;
+
     private int currentIndex = 0;
-    private float timer = 0f;
     private bool spawningActive = true;
+
+    private float prefabTimer = 0f;
+    private float spawnIncreaseTimer = 0f;
+
+    private int currentMeteorsPerSpawn;
 
     void Start()
     {
         mainCamera = Camera.main;
+
+        currentMeteorsPerSpawn = defaultMeteorsPerSpawn;
 
         InvokeRepeating(nameof(SpawnMeteor), 1f, spawnRate);
     }
@@ -26,14 +39,30 @@ public class MeteorSpawner : MonoBehaviour
         if (!spawningActive)
             return;
 
-        timer += Time.deltaTime;
+        prefabTimer += Time.deltaTime;
+        spawnIncreaseTimer += Time.deltaTime;
 
-        if (timer >= switchInterval)
+        // Gradually increase meteors spawned
+        if (spawnIncreaseTimer >= spawnIncreaseInterval)
         {
-            timer = 0f;
+            spawnIncreaseTimer = 0f;
+
+            if (currentMeteorsPerSpawn < maxMeteorsPerSpawn)
+                currentMeteorsPerSpawn++;
+        }
+
+        // Switch to next prefab
+        if (prefabTimer >= switchInterval)
+        {
+            prefabTimer = 0f;
+            spawnIncreaseTimer = 0f;
+
+            // Reset spawn count for new prefab
+            currentMeteorsPerSpawn = defaultMeteorsPerSpawn;
+
             currentIndex++;
 
-            // If we reached the end → stop spawning
+            // Stop after last prefab
             if (currentIndex >= meteorPrefabs.Length)
             {
                 spawningActive = false;
@@ -47,21 +76,22 @@ public class MeteorSpawner : MonoBehaviour
         if (!PlayerController.IsAlive || !spawningActive)
             return;
 
-        // Safety check
         if (meteorPrefabs.Length == 0)
             return;
 
-        // Camera bounds
         float cameraHeight = mainCamera.orthographicSize;
         float cameraWidth = cameraHeight * mainCamera.aspect;
 
-       float left = mainCamera.transform.position.x - cameraWidth + horizontalSpawnPadding;
-float right = mainCamera.transform.position.x + cameraWidth - horizontalSpawnPadding;
+        float left = mainCamera.transform.position.x - cameraWidth + horizontalSpawnPadding;
+        float right = mainCamera.transform.position.x + cameraWidth - horizontalSpawnPadding;
         float top = mainCamera.transform.position.y + cameraHeight;
 
-        float randomX = Random.Range(left, right);
-        Vector2 spawnPos = new Vector2(randomX, top + 1f);
+        for (int i = 0; i < currentMeteorsPerSpawn; i++)
+        {
+            float randomX = Random.Range(left, right);
+            Vector2 spawnPos = new Vector2(randomX, top + 1f);
 
-        Instantiate(meteorPrefabs[currentIndex], spawnPos, Quaternion.identity);
+            Instantiate(meteorPrefabs[currentIndex], spawnPos, Quaternion.identity);
+        }
     }
 }
