@@ -69,15 +69,36 @@ public class PlayerController : MonoBehaviour
             Destroy(gameObject);
     }
 
-    void Move()
-    {
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
+   void Move()
+{
+    float moveX = Input.GetAxisRaw("Horizontal");
+    float moveY = Input.GetAxisRaw("Vertical");
 
-        Vector2 movement = new Vector2(moveX, moveY).normalized;
+    Vector3 movement = new Vector3(moveX, moveY, 0f).normalized;
+    transform.Translate(movement * moveSpeed * Time.deltaTime);
 
-        transform.Translate(movement * moveSpeed * Time.deltaTime);
-    }
+    ClampToCamera();
+}
+
+void ClampToCamera()
+{
+    Camera cam = Camera.main;
+
+    // World-space camera bounds
+    float halfWidth = cam.orthographicSize * cam.aspect;
+
+    // Player half-width
+    float playerHalfWidth = GetComponent<SpriteRenderer>().bounds.extents.x;
+
+    Vector3 pos = transform.position;
+    pos.x = Mathf.Clamp(
+        pos.x,
+        -halfWidth + playerHalfWidth,
+         halfWidth - playerHalfWidth
+    );
+
+    transform.position = pos;
+}
 
     void Shoot()
     {
