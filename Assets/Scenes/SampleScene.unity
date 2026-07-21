@@ -512,63 +512,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1520732498
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 97300691337474256, guid: 2d6fbe3f474fee54fa3358978009bf7c, type: 3}
-      propertyPath: m_Name
-      value: meteorite_ruby Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 7731485336630165222, guid: 2d6fbe3f474fee54fa3358978009bf7c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.2765474
-      objectReference: {fileID: 0}
-    - target: {fileID: 7731485336630165222, guid: 2d6fbe3f474fee54fa3358978009bf7c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.7558052
-      objectReference: {fileID: 0}
-    - target: {fileID: 7731485336630165222, guid: 2d6fbe3f474fee54fa3358978009bf7c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7731485336630165222, guid: 2d6fbe3f474fee54fa3358978009bf7c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7731485336630165222, guid: 2d6fbe3f474fee54fa3358978009bf7c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7731485336630165222, guid: 2d6fbe3f474fee54fa3358978009bf7c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7731485336630165222, guid: 2d6fbe3f474fee54fa3358978009bf7c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7731485336630165222, guid: 2d6fbe3f474fee54fa3358978009bf7c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7731485336630165222, guid: 2d6fbe3f474fee54fa3358978009bf7c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7731485336630165222, guid: 2d6fbe3f474fee54fa3358978009bf7c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2d6fbe3f474fee54fa3358978009bf7c, type: 3}
 --- !u!1 &1658396652
 GameObject:
   m_ObjectHideFlags: 0
@@ -604,8 +547,12 @@ MonoBehaviour:
   - {fileID: 4982821178639940556, guid: d6989482d296c884ebba200f5205d43f, type: 3}
   - {fileID: 238198200233106558, guid: b4d2bb1809448ba4da726b5aca5ef88f, type: 3}
   - {fileID: 97300691337474256, guid: 2d6fbe3f474fee54fa3358978009bf7c, type: 3}
+  bossMeteorPrefab: {fileID: 1051984238779734663, guid: 91c51aa958d8a9c4a82f3539cef6ffa9, type: 3}
   spawnRate: 0.5
   switchInterval: 20
+  defaultMeteorsPerSpawn: 1
+  maxMeteorsPerSpawn: 5
+  spawnIncreaseInterval: 5
   horizontalSpawnPadding: 0.5
 --- !u!4 &1658396654
 Transform:
@@ -755,4 +702,3 @@ SceneRoots:
   - {fileID: 8227009685719281132}
   - {fileID: 912485640}
   - {fileID: 1339693535}
-  - {fileID: 1520732498}

@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: a1cf927ab695fb2469db1fb53203e871
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8133027492714594735
+    second: Boss_meteor_0
+  - first:
+      213: -8165546288179412140
+    second: Boss_meteor_1
+  - first:
+      213: -5582054871328981995
+    second: Boss_meteor_2
+  - first:
+      213: -6037474983195154750
+    second: Boss_meteor_3
+  - first:
+      213: -3631712356649211174
+    second: Boss_meteor_4
+  - first:
+      213: -6269842490425543294
+    second: Boss_meteor_5
+  - first:
+      213: -3772847858785104370
+    second: Boss_meteor_6
+  - first:
+      213: -5969714466575375615
+    second: Boss_meteor_7
+  - first:
+      213: 7912093461363890957
+    second: Boss_meteor_8
+  - first:
+      213: -2832186929728665892
+    second: Boss_meteor_9
+  - first:
+      213: -5090728217217382938
+    second: Boss_meteor_10
+  - first:
+      213: -3226876916042219779
+    second: Boss_meteor_11
+  - first:
+      213: 5506470549153811177
+    second: Boss_meteor_12
+  - first:
+      213: 8170680433597766122
+    second: Boss_meteor_13
+  - first:
+      213: 8270768684647016820
+    second: Boss_meteor_14
+  - first:
+      213: 5631736776947438313
+    second: Boss_meteor_15
+  - first:
+      213: -3520127819169497720
+    second: Boss_meteor_16
+  - first:
+      213: -8690487276190657629
+    second: Boss_meteor_17
+  - first:
+      213: -1518834454439358426
+    second: Boss_meteor_18
+  - first:
+      213: 1455140723647798411
+    second: Boss_meteor_19
+  - first:
+      213: 6137424641586324580
+    second: Boss_meteor_20
+  - first:
+      213: 4058455486112309297
+    second: Boss_meteor_21
+  - first:
+      213: -5979796014582321398
+    second: Boss_meteor_22
+  - first:
+      213: -7025953753717582530
+    second: Boss_meteor_23
+  - first:
+      213: 228594074798757773
+    second: Boss_meteor_24
+  - first:
+      213: 5727641017971075869
+    second: Boss_meteor_25
+  - first:
+      213: -9170237917203402559
+    second: Boss_meteor_26
+  - first:
+      213: -5804833136387134897
+    second: Boss_meteor_27
+  - first:
+      213: -5684464324830815883
+    second: Boss_meteor_28
+  - first:
+      213: -6941112749466979078
+    second: Boss_meteor_29
+  - first:
+      213: 5051660343080183611
+    second: Boss_meteor_30
+  - first:
+      213: 1595349336343433853
+    second: Boss_meteor_31
+  - first:
+      213: -4596931029974929485
+    second: Boss_meteor_32
+  - first:
+      213: 7350814998369328555
+    second: Boss_meteor_33
+  - first:
+      213: -1737605470048265159
+    second: Boss_meteor_34
+  - first:
+      213: 876734415753436734
+    second: Boss_meteor_35
+  - first:
+      213: -5255299372791313745
+    second: Boss_meteor_36
+  - first:
+      213: -1431801964546412774
+    second: Boss_meteor_37
+  - first:
+      213: -7822347833668944060
+    second: Boss_meteor_38
+  - first:
+      213: -6270951734605901482
+    second: Boss_meteor_39
+  - first:
+      213: 7358216860939565634
+    second: Boss_meteor_40
+  - first:
+      213: 4446376928381928585
+    second: Boss_meteor_41
+  - first:
+      213: -2623192641993253860
+    second: Boss_meteor_42
+  - first:
+      213: 8825849102320236477
+    second: Boss_meteor_43
+  - first:
+      213: -1198630558964717925
+    second: Boss_meteor_44
+  - first:
+      213: 6010155608780627763
+    second: Boss_meteor_45
+  - first:
+      213: -5633479221918330553
+    second: Boss_meteor_46
+  - first:
+      213: 722285427001455525
+    second: Boss_meteor_47
+  - first:
+      213: 373084129784527655
+    second: Boss_meteor_48
+  - first:
+      213: 6198957761141031332
+    second: Boss_meteor_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss_meteor_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3
+        width: 124
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa14dbbf9615ed070800000000000000
+      internalID: 8133027492714594735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 5
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4538e00f9e62eae80800000000000000
+      internalID: -8165546288179412140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 5
+        width: 118
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c72b56bae8882b0800000000000000
+      internalID: -5582054871328981995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_3
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 5
+        width: 116
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6685e9d74963ca0800000000000000
+      internalID: -6037474983195154750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_4
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 5
+        width: 114
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adae68f6ad0999dc0800000000000000
+      internalID: -3631712356649211174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_5
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 4
+        width: 112
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285f888597b0df8a0800000000000000
+      internalID: -6269842490425543294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_6
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 4
+        width: 113
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e4581acd624abc0800000000000000
+      internalID: -3772847858785104370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_7
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 3
+        width: 113
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103a3415250572da0800000000000000
+      internalID: -5969714466575375615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_8
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 3
+        width: 113
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b194245176dcd60800000000000000
+      internalID: 7912093461363890957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_9
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 3
+        width: 111
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6c4043efc02b8d0800000000000000
+      internalID: -2832186929728665892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_10
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 3
+        width: 111
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e543b488a91a59b0800000000000000
+      internalID: -5090728217217382938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_11
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 3
+        width: 111
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe3565aa84d733d0800000000000000
+      internalID: -3226876916042219779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_12
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 3
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea86783ac9ea6c40800000000000000
+      internalID: 5506470549153811177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_13
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 3
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae954d17096146170800000000000000
+      internalID: 8170680433597766122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_14
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 3
+        width: 112
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4796fcb5c4ca7c270800000000000000
+      internalID: 8270768684647016820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_15
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 2
+        width: 113
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2947aa2c2f72e40800000000000000
+      internalID: 5631736776947438313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_16
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 2
+        width: 114
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d7e6e166ef52fc0800000000000000
+      internalID: -3520127819169497720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_17
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 3
+        width: 115
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a39a91dddf256780800000000000000
+      internalID: -8690487276190657629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_18
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 3
+        width: 116
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620948e5c140ceae0800000000000000
+      internalID: -1518834454439358426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_19
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 3
+        width: 119
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c5b3b47c2b13410800000000000000
+      internalID: 1455140723647798411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_20
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 3
+        width: 120
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4646b7da1338c2550800000000000000
+      internalID: 6137424641586324580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_21
+      rect:
+        serializedVersion: 2
+        x: 2692
+        y: 3
+        width: 122
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130a57213c7825830800000000000000
+      internalID: 4058455486112309297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_22
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 4
+        width: 124
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f2681053f730da0800000000000000
+      internalID: -5979796014582321398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_23
+      rect:
+        serializedVersion: 2
+        x: 2947
+        y: 4
+        width: 125
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35575d394cce7e90800000000000000
+      internalID: -7025953753717582530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_24
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 4
+        width: 125
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87932299112c2300800000000000000
+      internalID: 228594074798757773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_25
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 4
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b6f15d82bac7f40800000000000000
+      internalID: 5727641017971075869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_26
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 5
+        width: 123
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0f5474335ccb080800000000000000
+      internalID: -9170237917203402559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_27
+      rect:
+        serializedVersion: 2
+        x: 3461
+        y: 6
+        width: 121
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a6a3d8407117fa0800000000000000
+      internalID: -5804833136387134897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_28
+      rect:
+        serializedVersion: 2
+        x: 3590
+        y: 6
+        width: 119
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579141c60d9bc11b0800000000000000
+      internalID: -5684464324830815883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_29
+      rect:
+        serializedVersion: 2
+        x: 3718
+        y: 6
+        width: 117
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4f51edab63caf90800000000000000
+      internalID: -6941112749466979078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_30
+      rect:
+        serializedVersion: 2
+        x: 3844
+        y: 6
+        width: 120
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37e833315a1b1640800000000000000
+      internalID: 5051660343080183611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_31
+      rect:
+        serializedVersion: 2
+        x: 3971
+        y: 7
+        width: 122
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72d765d4c1d32610800000000000000
+      internalID: 1595349336343433853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_32
+      rect:
+        serializedVersion: 2
+        x: 4098
+        y: 5
+        width: 125
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfaf55759b6430c0800000000000000
+      internalID: -4596931029974929485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_33
+      rect:
+        serializedVersion: 2
+        x: 4225
+        y: 5
+        width: 127
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: badda637b47530660800000000000000
+      internalID: 7350814998369328555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_34
+      rect:
+        serializedVersion: 2
+        x: 4353
+        y: 5
+        width: 128
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c5ffdf709c2e7e0800000000000000
+      internalID: -1737605470048265159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_35
+      rect:
+        serializedVersion: 2
+        x: 4481
+        y: 5
+        width: 128
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ed7555e49ca2c00800000000000000
+      internalID: 876734415753436734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_36
+      rect:
+        serializedVersion: 2
+        x: 4610
+        y: 5
+        width: 127
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faac070701d6117b0800000000000000
+      internalID: -5255299372791313745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_37
+      rect:
+        serializedVersion: 2
+        x: 4739
+        y: 5
+        width: 126
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f218203b7312ce0800000000000000
+      internalID: -1431801964546412774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_38
+      rect:
+        serializedVersion: 2
+        x: 4869
+        y: 5
+        width: 124
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fbd900710717390800000000000000
+      internalID: -7822347833668944060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_39
+      rect:
+        serializedVersion: 2
+        x: 4998
+        y: 5
+        width: 123
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 651123f4f9a19f8a0800000000000000
+      internalID: -6270951734605901482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_40
+      rect:
+        serializedVersion: 2
+        x: 5128
+        y: 5
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ab790ef33ad1660800000000000000
+      internalID: 7358216860939565634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_41
+      rect:
+        serializedVersion: 2
+        x: 5258
+        y: 4
+        width: 118
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98482b92244b4bd30800000000000000
+      internalID: 4446376928381928585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_42
+      rect:
+        serializedVersion: 2
+        x: 5389
+        y: 4
+        width: 115
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cd29cb03c889bd0800000000000000
+      internalID: -2623192641993253860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_43
+      rect:
+        serializedVersion: 2
+        x: 5517
+        y: 4
+        width: 114
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db77ff84ff6bb7a70800000000000000
+      internalID: 8825849102320236477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_44
+      rect:
+        serializedVersion: 2
+        x: 5644
+        y: 3
+        width: 116
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96eaf37bdb9d5fe0800000000000000
+      internalID: -1198630558964717925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_45
+      rect:
+        serializedVersion: 2
+        x: 5771
+        y: 2
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fd03adeac586350800000000000000
+      internalID: 6010155608780627763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_46
+      rect:
+        serializedVersion: 2
+        x: 5899
+        y: 1
+        width: 116
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7419300ce7cd1d1b0800000000000000
+      internalID: -5633479221918330553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_47
+      rect:
+        serializedVersion: 2
+        x: 6027
+        y: 1
+        width: 113
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3fcded4c2160a00800000000000000
+      internalID: 722285427001455525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_48
+      rect:
+        serializedVersion: 2
+        x: 6155
+        y: 1
+        width: 113
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b74231a067d2500800000000000000
+      internalID: 373084129784527655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_meteor_49
+      rect:
+        serializedVersion: 2
+        x: 6284
+        y: 1
+        width: 112
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a146728d3f170650800000000000000
+      internalID: 6198957761141031332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boss_meteor_0: 8133027492714594735
+      Boss_meteor_1: -8165546288179412140
+      Boss_meteor_10: -5090728217217382938
+      Boss_meteor_11: -3226876916042219779
+      Boss_meteor_12: 5506470549153811177
+      Boss_meteor_13: 8170680433597766122
+      Boss_meteor_14: 8270768684647016820
+      Boss_meteor_15: 5631736776947438313
+      Boss_meteor_16: -3520127819169497720
+      Boss_meteor_17: -8690487276190657629
+      Boss_meteor_18: -1518834454439358426
+      Boss_meteor_19: 1455140723647798411
+      Boss_meteor_2: -5582054871328981995
+      Boss_meteor_20: 6137424641586324580
+      Boss_meteor_21: 4058455486112309297
+      Boss_meteor_22: -5979796014582321398
+      Boss_meteor_23: -7025953753717582530
+      Boss_meteor_24: 228594074798757773
+      Boss_meteor_25: 5727641017971075869
+      Boss_meteor_26: -9170237917203402559
+      Boss_meteor_27: -5804833136387134897
+      Boss_meteor_28: -5684464324830815883
+      Boss_meteor_29: -6941112749466979078
+      Boss_meteor_3: -6037474983195154750
+      Boss_meteor_30: 5051660343080183611
+      Boss_meteor_31: 1595349336343433853
+      Boss_meteor_32: -4596931029974929485
+      Boss_meteor_33: 7350814998369328555
+      Boss_meteor_34: -1737605470048265159
+      Boss_meteor_35: 876734415753436734
+      Boss_meteor_36: -5255299372791313745
+      Boss_meteor_37: -1431801964546412774
+      Boss_meteor_38: -7822347833668944060
+      Boss_meteor_39: -6270951734605901482
+      Boss_meteor_4: -3631712356649211174
+      Boss_meteor_40: 7358216860939565634
+      Boss_meteor_41: 4446376928381928585
+      Boss_meteor_42: -2623192641993253860
+      Boss_meteor_43: 8825849102320236477
+      Boss_meteor_44: -1198630558964717925
+      Boss_meteor_45: 6010155608780627763
+      Boss_meteor_46: -5633479221918330553
+      Boss_meteor_47: 722285427001455525
+      Boss_meteor_48: 373084129784527655
+      Boss_meteor_49: 6198957761141031332
+      Boss_meteor_5: -6269842490425543294
+      Boss_meteor_6: -3772847858785104370
+      Boss_meteor_7: -5969714466575375615
+      Boss_meteor_8: 7912093461363890957
+      Boss_meteor_9: -2832186929728665892
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

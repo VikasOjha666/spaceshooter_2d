@@ -4,15 +4,20 @@ public class MeteorSpawner : MonoBehaviour
 {
     public GameObject[] meteorPrefabs;
 
+    [Header("Boss")]
+    public GameObject bossMeteorPrefab;
+    public float bossSpawnDelay = 2f;
+
     [Header("Spawn Timing")]
-    public float spawnRate = 0.5f;
+    public float spawnRate = 4f;
     public float switchInterval = 20f;
 
     [Header("Spawn Count")]
     public int defaultMeteorsPerSpawn = 1;
     public int maxMeteorsPerSpawn = 5;
-    public float spawnIncreaseInterval = 5f; // Increase count every 5 seconds
+    public float spawnIncreaseInterval = 5f;
 
+    [Header("Spawn Position")]
     public float horizontalSpawnPadding = 0.5f;
 
     private Camera mainCamera;
@@ -62,11 +67,15 @@ public class MeteorSpawner : MonoBehaviour
 
             currentIndex++;
 
-            // Stop after last prefab
+            // Finished all regular meteor types
             if (currentIndex >= meteorPrefabs.Length)
             {
                 spawningActive = false;
                 CancelInvoke(nameof(SpawnMeteor));
+
+                // Spawn the boss after a delay
+                if (bossMeteorPrefab != null)
+                    Invoke(nameof(SpawnBoss), bossSpawnDelay);
             }
         }
     }
@@ -93,5 +102,22 @@ public class MeteorSpawner : MonoBehaviour
 
             Instantiate(meteorPrefabs[currentIndex], spawnPos, Quaternion.identity);
         }
+    }
+
+    void SpawnBoss()
+    {
+        if (!PlayerController.IsAlive)
+            return;
+
+        if (bossMeteorPrefab == null)
+            return;
+
+        float cameraHeight = mainCamera.orthographicSize;
+        float top = mainCamera.transform.position.y + cameraHeight;
+
+        // Spawn boss in the center of the screen
+        Vector2 bossSpawnPos = new Vector2(mainCamera.transform.position.x, top + 1f);
+
+        Instantiate(bossMeteorPrefab, bossSpawnPos, Quaternion.identity);
     }
 }
