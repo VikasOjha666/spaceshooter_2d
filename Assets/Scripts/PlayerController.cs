@@ -8,6 +8,7 @@ using UnityEditor;
 public class PlayerController : MonoBehaviour
 {
     public static bool IsAlive { get; private set; } = true;
+    public static int BulletStrength { get; private set; } = 1;
 
     public float moveSpeed = 8f;
     public GameObject bulletPrefab;
@@ -27,6 +28,13 @@ public class PlayerController : MonoBehaviour
     void OnEnable()
     {
         IsAlive = true;
+        BulletStrength = 1;
+    }
+
+    public static void IncreaseBulletStrength(int amount)
+    {
+        if (amount > 0)
+            BulletStrength += amount;
     }
 
     void Update()
@@ -102,7 +110,11 @@ void ClampToCamera()
 
     void Shoot()
     {
-        Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+        GameObject bulletObject = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+        PlayerBullet bullet = bulletObject.GetComponent<PlayerBullet>();
+
+        if (bullet != null)
+            bullet.SetDamage(BulletStrength);
     }
 
     // Called from Animation Event

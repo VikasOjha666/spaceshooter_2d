@@ -547,15 +547,12 @@ MonoBehaviour:
   - {fileID: 4982821178639940556, guid: d6989482d296c884ebba200f5205d43f, type: 3}
   - {fileID: 238198200233106558, guid: b4d2bb1809448ba4da726b5aca5ef88f, type: 3}
   - {fileID: 97300691337474256, guid: 2d6fbe3f474fee54fa3358978009bf7c, type: 3}
-  powerUpPrefabs:
-  - {fileID: 100000, guid: d90f407afc5441948ad6aadc7f94b172, type: 3}
-  - {fileID: 100000, guid: d90f407afc5441948ad6aadc7f94b172, type: 3}
-  - {fileID: 100000, guid: d90f407afc5441948ad6aadc7f94b172, type: 3}
-  - {fileID: 100000, guid: d90f407afc5441948ad6aadc7f94b172, type: 3}
-  - {fileID: 100000, guid: d90f407afc5441948ad6aadc7f94b172, type: 3}
+  powerUpPrefabs: []
+  powerUpChances: []
   bossMeteorPrefab: {fileID: 8901234567890123401, guid: 91c51aa958d8a9c4a82f3539cef6ffa9, type: 3}
-  bossPowerUpPrefab: {fileID: 100000, guid: d90f407afc5441948ad6aadc7f94b172, type: 3}
+  bossPowerUpPrefab: {fileID: 0}
   bossSpawnDelay: 2
+  bossPowerUpChance: 0.5
   spawnRate: 0.5
   switchInterval: 20
   defaultMeteorsPerSpawn: 1

@@ -1,11 +1,12 @@
-// Meteor.cs
 using UnityEngine;
 
-public class Meteor : MonoBehaviour
+public class BossMeteor : MonoBehaviour
 {
-    public float speed = 3f;
+    public float speed = 2f;
+    public int maxHealth = 2;
     public GameObject powerUpPrefab;
 
+    int currentHealth;
     Rigidbody2D rb;
     Animator animator;
     bool exploding = false;
@@ -14,6 +15,7 @@ public class Meteor : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        currentHealth = maxHealth;
     }
 
     void FixedUpdate()
@@ -24,13 +26,25 @@ public class Meteor : MonoBehaviour
         rb.MovePosition(rb.position + Vector2.down * speed * Time.fixedDeltaTime);
 
         if (rb.position.y < -7f)
-        {
             Destroy(gameObject);
-        }
+    }
+
+    public void TakeDamage(int amount)
+    {
+        if (exploding || amount <= 0)
+            return;
+
+        currentHealth -= amount;
+
+        if (currentHealth <= 0)
+            Explode();
     }
 
     public void Explode()
     {
+        if (exploding)
+            return;
+
         exploding = true;
 
         animator.SetBool("blast", true);
@@ -39,12 +53,9 @@ public class Meteor : MonoBehaviour
 
         rb.linearVelocity = Vector2.zero;
 
-        // Spawn power-up - no chance, always spawn if powerUpPrefab is assigned
-        if (powerUpPrefab != null)
-        {
-            Instantiate(powerUpPrefab, transform.position, Quaternion.identity);
-        }
+        // Boss meteor never spawns power-ups
+        // No power-up spawning logic here
 
-        Destroy(gameObject, 0.2f); // adjust to animation length
+        Destroy(gameObject, 0.2f);
     }
 }
