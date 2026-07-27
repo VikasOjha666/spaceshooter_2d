@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 2822656983980042025}
   - component: {fileID: 2831311309100217317}
   - component: {fileID: 3975167174331478911}
+  - component: {fileID: 6914066868513130418}
   m_Layer: 0
   m_Name: PlayerShip
   m_TagString: Player
@@ -215,7 +216,6 @@ MonoBehaviour:
   moveSpeed: 8
   bulletPrefab: {fileID: 2549954813168749727, guid: a4aba9f16375a1a40be9d2c1d8808717, type: 3}
   firePoint: {fileID: 8875435869665193015}
-  animator: {fileID: 0}
 --- !u!95 &3975167174331478911
 Animator:
   serializedVersion: 7
@@ -238,3 +238,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6914066868513130418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3299716734874969298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 714265c3472e2b64a9a10c5a185bee20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  meteorExplosionClip: {fileID: 8300000, guid: 39d58b1a02f79c045ab718ddbbb2e10c, type: 3}
+  shipExplosionClip: {fileID: 8300000, guid: 7e05b56dcc70ee541aa9a1b075d66600, type: 3}
+  backgroundMusicClip: {fileID: 8300000, guid: 53740d285cee7294e870b425de8a6eaa, type: 3}
+  backgroundMusicVolume: 0.15

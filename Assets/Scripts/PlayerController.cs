@@ -69,6 +69,9 @@ public class PlayerController : MonoBehaviour
 
         col.enabled = false;
 
+        // Play ship explosion sound via AudioManager (preloaded at game start)
+        AudioManager.PlayShipExplosion(transform.position);
+
         if (animator != null){
             animator.SetBool("enemy_col", true);
             Destroy(gameObject, 0.4f);

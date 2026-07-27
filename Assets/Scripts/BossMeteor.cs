@@ -61,6 +61,9 @@ public class BossMeteor : MonoBehaviour
 
         rb.linearVelocity = Vector2.zero;
 
+        // Play meteor explosion sound via AudioManager (preloaded at game start)
+        AudioManager.PlayMeteorExplosion(transform.position);
+
         // Boss meteor never spawns power-ups
         // No power-up spawning logic here
 

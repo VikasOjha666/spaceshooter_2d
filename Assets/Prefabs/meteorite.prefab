@@ -193,3 +193,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Meteor
   speed: 3
+  powerUpPrefab: {fileID: 0}
+  explosionClip: {fileID: 8300000, guid: 39d58b1a02f79c045ab718ddbbb2e10c, type: 3}

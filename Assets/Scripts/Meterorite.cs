@@ -46,6 +46,9 @@ public void Explode()
 
         rb.linearVelocity = Vector2.zero;
 
+        // Play meteor explosion sound via AudioManager (preloaded at game start)
+        AudioManager.PlayMeteorExplosion(transform.position);
+
         // Spawn power-up - no chance, always spawn if powerUpPrefab is assigned
         if (powerUpPrefab != null)
         {
