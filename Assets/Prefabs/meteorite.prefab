@@ -105,7 +105,7 @@ Animator:
   m_GameObject: {fileID: 2787471358788580805}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bf7d7b308fa5fea46bbfdc809741f35e, type: 2}
+  m_Controller: {fileID: 9100000, guid: cc6c65934da2d264481b15feaf20693d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -193,5 +193,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Meteor
   speed: 3
-  powerUpPrefab: {fileID: 0}
-  explosionClip: {fileID: 8300000, guid: 39d58b1a02f79c045ab718ddbbb2e10c, type: 3}
+  powerUpPrefab: {fileID: 100000, guid: d90f407afc5441948ad6aadc7f94b172, type: 3}
