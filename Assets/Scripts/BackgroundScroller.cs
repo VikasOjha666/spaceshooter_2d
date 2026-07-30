@@ -1,22 +1,3 @@
-using UnityEngine;
-
-public class BackgroundScroll : MonoBehaviour
-{
-    [SerializeField] float scrollSpeed = 2f;
-    float backgroundHeight;
-
-    void Start()
-    {
-        backgroundHeight = GetComponent<SpriteRenderer>().bounds.size.y;
-    }
-
-    void Update()
-    {
-        transform.position += Vector3.down * scrollSpeed * Time.deltaTime;
-
-        if (transform.position.y <= -backgroundHeight)
-        {
-            transform.position += Vector3.up * backgroundHeight * 2f;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fe8f061fcbd6e64d68220bae419f4aba574e58bba8164ef4eedd708ec8dd0dd
+size 497

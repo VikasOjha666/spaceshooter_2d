@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: a4c4edeb4aab26845ae483650d843784
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences:
-  - bulletPrefab: {instanceID: 0}
-  - firePoint: {instanceID: 0}
-  - explosionClip: {fileID: 8300000, guid: 7e05b56dcc70ee541aa9a1b075d66600, type: 3}
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:b42778e2edf0eb5ac72ea8ccfeca20785d7d8a99a595c4862dd5756cf2f954da
+size 391

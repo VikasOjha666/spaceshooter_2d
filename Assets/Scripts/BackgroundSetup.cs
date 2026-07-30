@@ -1,14 +1,3 @@
-using UnityEngine;
-
-public class BackgroundSetup : MonoBehaviour
-{
-    [SerializeField] Transform background1;
-    [SerializeField] Transform background2;
-
-    void Start()
-    {
-        float height = background1.GetComponent<SpriteRenderer>().bounds.size.y;
-        background1.position = Vector3.zero;
-        background2.position = Vector3.up * height;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e1e961d25e6078593d554344a7313b22932042d53d3e2733699d53a77976553
+size 364
